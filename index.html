@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AgroSmart | Agrinho 2026</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="particles"></div>
+
+<header class="hero">
+
+<nav>
+<div class="logo">🌱 AgroSmart</div>
+
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#ferramentas">Ferramentas</a></li>
+<li><a href="#grafico">Dados</a></li>
+</ul>
+</nav>
+
+<div class="hero-content">
+
+<h1>Tecnologia para o Campo</h1>
+
+<p>
+Conectando agricultura, inovação e sustentabilidade.
+</p>
+
+<a href="#sobre" class="btn">
+Explorar
+</a>
+
+</div>
+
+</header>
+
+<section id="sobre">
+
+<h2>Campo + Cidade</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌾 Produção</h3>
+<p>Maior produtividade com tecnologia.</p>
+</div>
+
+<div class="card">
+<h3>💧 Economia</h3>
+<p>Uso inteligente dos recursos naturais.</p>
+</div>
+
+<div class="card">
+<h3>🚜 Inovação</h3>
+<p>Ferramentas digitais para produtores.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="ferramentas">
+
+<h2>Calculadora de Irrigação</h2>
+
+<input
+type="number"
+id="area"
+placeholder="Área em m²">
+
+<button onclick="calcularAgua()">
+Calcular
+</button>
+
+<p id="resultado"></p>
+
+</section>
+
+<section id="grafico">
+
+<h2>Produção Agrícola</h2>
+
+<canvas id="meuGrafico"></canvas>
+
+</section>
+
+<section>
+
+<h2>🤖 AgroBot</h2>
+
+<div id="chat"></div>
+
+<input
+id="pergunta"
+placeholder="Digite sua pergunta">
+
+<button onclick="responder()">
+Enviar
+</button>
+
+</section>
+
+<footer>
+
+<p>
+Agrinho 2026 • AgroSmart
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
